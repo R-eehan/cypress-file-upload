@@ -15,6 +15,7 @@ steps:
     pwd
   displayName: 'Install BrowserStack Cypress CLI'
 
-# - script: |
-#     browserstack-cypress run --sync
-#   displayName: 'Run the Cypress test'
+- script: |
+    cd /home/vsts/work/1/s
+    browserstack-cypress run --sync
+  displayName: 'Run the Cypress test'
