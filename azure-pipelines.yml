@@ -10,6 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: BrowserStackConfig@0
+  inputs:
+    BrowserStackServiceEndPoint: 'BS connection'
+    
 - script: |
     npm install browserstack-cypress-cli
     pwd
