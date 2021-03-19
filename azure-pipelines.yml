@@ -13,12 +13,13 @@ steps:
 - script: |
     npm install browserstack-cypress-cli
     pwd
-  displayName: 'Install BrowserStack Cypress CLI'
+    npx browserstack-cypress run --sync
+  displayName: 'Install BrowserStack Cypress CLI & run the test'
 
-- script: 
-    which browserstack-cypress
-  displayName: 'Check to see where the CLI is installed'
+# - script: 
+#     which browserstack-cypress
+#   displayName: 'Check to see where the CLI is installed'
 
-- script: |
-    browserstack-cypress run --sync
-  displayName: 'Run the Cypress test'
+# - script: |
+#     browserstack-cypress run --sync
+#   displayName: 'Run the Cypress test'
