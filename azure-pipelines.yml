@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: npm install -g browserstack-cypress-cli
+- script: npm install browserstack-cypress-cli
   displayName: 'Install BrowserStack Cypress CLI'
 
 - script: |
