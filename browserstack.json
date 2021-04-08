@@ -10,17 +10,10 @@
             "versions": [
                 "88"
             ]
-        },
-        {
-            "browser": "edge",
-            "os": "Windows 10",
-            "versions": [
-                "88"
-            ]
         }
     ],
     "run_settings": {
-        "parallels": 2,
+        "parallels": 1,
         "cypress_proj_dir": "./",
         "project_name": "File upload",
         "build_name": "File Upload",
