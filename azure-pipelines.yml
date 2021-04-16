@@ -17,7 +17,7 @@ steps:
 - script: |
     npm install browserstack-cypress-cli
     pwd
-    npx browserstack-cypress run --sync
+    npx browserstack-cypress run
   displayName: 'Install BrowserStack Cypress CLI & run the test'
 
 # - script: 
